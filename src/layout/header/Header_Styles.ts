@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Theme } from "../../styles/Theme"
-import { Link } from 'react-scroll'
+import { Link } from "react-scroll"
 
 const Header = styled.header`
    background-color: ${Theme.colors.lightBg};
