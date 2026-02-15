@@ -1,4 +1,5 @@
 import React from 'react';
+// @ts-ignore
 import iconsSprite from "../../assets/images/sprite.svg"
 
 type IconPropsType = {

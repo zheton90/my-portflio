@@ -1,5 +1,6 @@
 import { FC } from 'react';
-import mainPhoto from '../../../assets/images/mainWithoutFon2.jpg'
+// @ts-ignore
+import mainPhoto from '../../../assets/images/Main16_02.png'
 import { FlexWrapper } from '../../../componets/FlexWrapper';
 import { Container } from '../../../componets/Container';
 import { S } from "./Main_Styles"

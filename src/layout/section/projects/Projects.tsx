@@ -3,32 +3,35 @@ import { FlexWrapper } from '../../../componets/FlexWrapper';
 import { Project } from './project/Project';
 import { Container } from "../../../componets/Container";
 import { S } from "./Projects_Styles"
+// @ts-ignore
 import superImage from '../../../assets/images/ProjectImage.png'
 
 const ProjectData = [
     {
-        titel: 'TITLE PROJECT',
-        description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+        titel: 'Todolists',
+        description: 'A basic course project on learning React and working with servers. During the course, I managed to learn and practice all of the above technologies.',
         src: superImage,
-        skills: ["JAVASCRIPT", "POSTGRESQL", "REACT", "REDUX"],
+        skills: [ "REACT", "Type Script", "REDUX", 'Reducer', 'RTK Query', 'Redux Toolkit', 'MUI', 'REST API', 'React Router'],
+        link: '',
+        githubLink:''
     },
     {
-        titel: 'I N S I G H T G R A M',
-        description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+        titel: 'ProjectShop',
+        description: 'My first project. Completed in 2022. During the process, I learned about adaptive page layout. I gained experience in basic styling.',
         src: superImage,
-        skills: ["JAVASCRIPT", "React Native", "REDUX"],
+        skills: ["HTML", "CSS", "SASS"],
     },
     {
-        titel: 'TITLE PROJECT',
-        description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+        titel: 'My Portfolio',
+        description: 'This is a portfolio project created using React and styled with styled components. Additional libraries such as React Parallax, React Scroll, and Typewriter Effect were also used during development.',
         src: superImage,
-        skills: ["JAVASCRIPT", "POSTGRESQL", "REACT", "REDUX"],
+        skills: ["Type Script", "Styled Components", "Java Script", "REACT"],
     },
     {
-        titel: 'I N S I G H T G R A M',
-        description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+        titel: 'MusicFun',
+        description: 'This project is currently under development. Server requests are executed using RTK query. Page styling has not yet been started.',
         src: superImage,
-        skills: ["JAVASCRIPT", "React Native", "REDUX"],
+        skills: ["Type Script", "RTK Query", 'Figma'],
     },
 
 ]

@@ -30,6 +30,7 @@ const ProjectSection = styled.div`
     padding-left: 30px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    //max-width: 400px;
 `
 
 const TitleProject = styled.h3`
