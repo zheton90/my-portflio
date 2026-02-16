@@ -9,6 +9,7 @@ type ProjectTypeProps = {
     description: string,
     src: string,
     skills: Array<string>,
+    link: string | null,
 }
 
 export const Project: FC<ProjectTypeProps> = (props: ProjectTypeProps) => {
@@ -16,7 +17,12 @@ export const Project: FC<ProjectTypeProps> = (props: ProjectTypeProps) => {
         <S.Project>
             <S.StyledImg src={props.src} alt='' />
             <S.ProjectSection>
-                <S.TitleProject>{props.titel}</S.TitleProject>
+                {props.link !== null ?
+                    <S.ProjectLink href={props.link} target='_blank'>
+                        <S.TitleProject>{props.titel}</S.TitleProject>
+                    </S.ProjectLink> :
+                    <S.TitleProject>{props.titel}</S.TitleProject>
+                }
                 <FlexWrapper align='center' wrap='wrap' gap='12px' >
                     {props.skills.map((s, id) => (
                         <Button key={id} transform={'uppercase'}>{s}</Button>

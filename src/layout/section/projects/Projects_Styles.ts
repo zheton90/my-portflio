@@ -45,7 +45,17 @@ const TextProject = styled.p`
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
-    margin-top: 19px;
+    margin: 10px;
+`
+
+const ProjectLink = styled.a`
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 93%;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: #1f2626;
+    margin: 10px;
 `
 
 
@@ -56,4 +66,5 @@ export const S = {
     ProjectSection,
     TitleProject,
     TextProject,
+    ProjectLink,
 }

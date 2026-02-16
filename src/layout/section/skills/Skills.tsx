@@ -14,38 +14,38 @@ const skillDate = [
         iconId: 'TYPESCRIPT',
         title: 'TYPESCRIPT'
     },
-    {
-        iconId: 'MONGODB',
-        title: 'MONGODB'
-    },
-    {
-        iconId: 'POSTGRESTQL',
-        title: 'POSTGRESTQL'
-    },
+    // {
+    //     iconId: 'MONGODB',
+    //     title: 'MONGODB'
+    // },
+    // {
+    //     iconId: 'POSTGRESTQL',
+    //     title: 'POSTGRESTQL'
+    // },
     {
         iconId: 'JEST',
         title: 'JEST'
     },
-    {
-        iconId: 'EXPRESSJS',
-        title: 'EXPRESSJS'
-    },
-    {
-        iconId: 'NESTJS',
-        title: 'NESTJS'
-    },
-    {
-        iconId: 'DOCKER',
-        title: 'DOCKER'
-    },
+    // {
+    //     iconId: 'EXPRESSJS',
+    //     title: 'EXPRESSJS'
+    // },
+    // {
+    //     iconId: 'NESTJS',
+    //     title: 'NESTJS'
+    // },
+    // {
+    //     iconId: 'DOCKER',
+    //     title: 'DOCKER'
+    // },
     {
         iconId: 'REACT',
         title: 'REACT'
     },
-    {
-        iconId: 'RECTNATIVE',
-        title: 'RECTNATIVE'
-    },
+    // {
+    //     iconId: 'RECTNATIVE',
+    //     title: 'RECTNATIVE'
+    // },
     {
         iconId: 'REDUX',
         title: 'REDUX'

@@ -69,6 +69,7 @@ const Button = styled.button`
     color: ${Theme.colors.buttonColor};
     border-radius: 6px;
     margin-top: 29px;
+    cursor: pointer;
 `
 
 export const S = {

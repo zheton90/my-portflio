@@ -1,4 +1,3 @@
-
 import { SectionTitle } from '../../../componets/SectionTitle';
 import { Button } from '../../../componets/button/Button';
 import { Container } from "../../../componets/Container";
@@ -24,12 +23,6 @@ export const Contacts = () => {
                 </SectionTitle>
 
                 <S.StyledForm>
-
-                    <S.FieldLabel>
-                        <span>SDBDFB</span>
-                        <br />
-                        <S.Field placeholder="SFDBSDFB" />
-                    </S.FieldLabel>
 
                     {FieldData.map((f, id) => (
                         <S.FieldLabel key={id}>

@@ -7,15 +7,18 @@ const itemFooter = ['Projects', 'Contact']
 const SocialItemsDate = [
     {
         iconId: 'GMAIL',
-        viewBox: '-9 -9 40 40'
+        viewBox: '-9 -9 40 40',
+        link: 'mailto:jen.nikolenko@gmail.com',
     },
     {
         iconId: 'LINKEDIN',
         viewBox: '-9 -9 40 40',
+        link: 'https://www.linkedin.com/in/yauheni-nikolenka-a21237207?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
     },
     {
         iconId: 'GITHUB',
         viewBox: '-1 -1 40 40',
+        link: 'https://github.com/zheton90',
     },
 
 ]
@@ -26,7 +29,7 @@ export const Footer = () => {
             <S.SocialList>
                 {SocialItemsDate.map((s, id) => (
                     <S.SocialItem key={id}>
-                        <S.SocialLink>
+                        <S.SocialLink target='_blank' href={s.link}>
                             <Icon
                                 width='38'
                                 height='38'

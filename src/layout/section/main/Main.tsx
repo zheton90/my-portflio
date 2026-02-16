@@ -7,6 +7,7 @@ import { S } from "./Main_Styles"
 import Typewriter from 'typewriter-effect';
 import Tilt from 'react-parallax-tilt';
 import styled from 'styled-components';
+import {log} from "node:util";
 
 export const Main: FC = () => {
     return <S.Main>
@@ -33,7 +34,7 @@ export const Main: FC = () => {
                             I am looking for an opportunity to join a team where I can apply my programming skills and
                             contribute to its success.
                         </S.SmallText>
-                        <S.Button>Contact Me</S.Button>
+                        <S.Button onClick={() => window.location.href = 'mailto:jen.nikolenko@gmail.com'}>Contact Me</S.Button>
                     </FlexWrapper>
                 </S.MainInfo>
                 <Tilt>
